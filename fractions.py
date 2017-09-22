@@ -80,10 +80,3 @@ class frac:
         top = self.top * other.top
         bot = self.bot * other.bot
         return frac(top, bot)
-
-#--------------TEST frac----------------
-
-
-x = frac(3,-2)
-y = frac(4,-2)
-z = frac(5,0)
